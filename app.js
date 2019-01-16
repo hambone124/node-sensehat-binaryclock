@@ -40,7 +40,7 @@ function formatClockDisplay (_timeArray) {
     }, []);
 
     // spread out elements
-    binaryTimeArray.forEach( el => {
+    binaryTimeArray.forEach(el => {
         outputMatrix.unshift("x");
         outputMatrix.unshift(el);
     });
@@ -71,24 +71,10 @@ function outputToDisplay (matrix) {
 
 function tick () {
     let timeArray = getTimeStringArray();
-
-    // let ledMatrix = formatClockDisplay(timeArray)
-    //     .map(input => {
-    //         if(input === "0")
-    //             return low;
-    //         else if (input === "1")
-    //             return high;
-    //         else 
-    //             return blank;            
-    // });
-    // sense.setPixels(ledMatrix);
     let formattedMatrix = formatClockDisplay(timeArray);
     outputToDisplay(formattedMatrix);
-
 }
 
 setInterval(() => {
-    console.time();
     tick();
-    console.timeEnd();
 }, 1000);

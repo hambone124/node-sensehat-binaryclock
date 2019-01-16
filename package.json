@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/hambone124/node-sensehat-binaryclock#readme",
   "dependencies": {
-    "node-sense-hat": "0.0.2"
+    "sense-hat-led": "^1.0.1"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "name": "sensehat-binaryclock",
+  "version": "0.1.0",
+  "description": "A binary clock displayed on a Raspberry Pi SenseHAT",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hambone124/node-sensehat-binaryclock.git"
+  },
+  "keywords": [
+    "sensehat",
+    "raspberry",
+    "pi"
+  ],
+  "author": "Hamilton Perez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hambone124/node-sensehat-binaryclock/issues"
+  },
+  "homepage": "https://github.com/hambone124/node-sensehat-binaryclock#readme",
+  "dependencies": {
+    "node-sense-hat": "0.0.2"
+  }
+}

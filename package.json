@@ -23,5 +23,10 @@
   "homepage": "https://github.com/hambone124/node-sensehat-binaryclock#readme",
   "dependencies": {
     "sense-hat-led": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
   }
 }
